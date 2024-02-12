@@ -1,0 +1,569 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/MinSizeRel/PvZ.exe"
+		},
+		{
+			"path" : "bin/MinSizeRel/PvZ.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"TARGET_LINK_LIBRARIES",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"src/GameWorld/CMakeLists.txt",
+			"src/PlantingSpot/CMakeLists.txt",
+			"src/SunFlowerSeed/CMakeLists.txt",
+			"src/SunFlower/CMakeLists.txt",
+			"src/PeaShooter/CMakeLists.txt",
+			"src/CherryBomb/CMakeLists.txt",
+			"src/Framework/CMakeLists.txt",
+			"third_party/freeglut/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 7
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 10,
+				"parent" : 9
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 10,
+				"parent" : 11
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 10,
+				"parent" : 13
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 19,
+				"parent" : 15
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 8,
+				"line" : 491,
+				"parent" : 17
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD"
+				},
+				{
+					"fragment" : "-std:c++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/Framework"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/GameWorld"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/third_party/freeglut/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/third_party/SOIL/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/GameObject"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/Background"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/SunFromSky"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/PlantingSpot"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/SunFlowerSeed"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/PeaShooterSeed"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/WallNutSeed"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/CherryBombSeed"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/RepeaterSeed"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/Spade"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/Zombie"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/SunFlower"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/PeaShooter"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/Repeater"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/CherryBomb"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/WallNut"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/SunFromFlower"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/Pea"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/Explosion"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/25606/Desktop/HW8-2 program/src/CooldownMask"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "SOIL::@745e8b768a24c48fa97d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "freeglut::@9f489802bb4ec236f2d4"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "Framework::@bbcc00d4dd4c98727359"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "GameObject::@cf4d02a5657504c132a7"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "PvZ::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /O1 /Ob1 /DNDEBUG -MD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\MinSizeRel\\Framework.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\MinSizeRel\\GameWorld.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\GameObject.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\Background.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\SunFromSky.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\PlantingSpot.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\SunFlowerSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\PeaShooterSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\WallNutSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\CherryBombSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\RepeaterSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\Spade.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\Zombie.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\SunFlower.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\PeaShooter.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\Repeater.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\CherryBomb.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\WallNut.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\MinSizeRel\\CooldownMask.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "lib\\MinSizeRel\\SunFromFlower.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "lib\\MinSizeRel\\Pea.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "lib\\MinSizeRel\\Explosion.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\MinSizeRel\\GameWorld.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\GameObject.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\Background.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\SunFromSky.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\PlantingSpot.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\SunFlowerSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\PeaShooterSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\WallNutSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\CherryBombSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\RepeaterSeed.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\Spade.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\MinSizeRel\\Zombie.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\SunFlower.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\PeaShooter.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\Repeater.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\CherryBomb.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "lib\\MinSizeRel\\WallNut.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "lib\\MinSizeRel\\CooldownMask.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "lib\\MinSizeRel\\SunFromFlower.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "lib\\MinSizeRel\\Pea.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "lib\\MinSizeRel\\Explosion.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\MinSizeRel\\Framework.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "lib\\MinSizeRel\\freeglut.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "opengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "winmm.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "lib\\MinSizeRel\\SOIL.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "PvZ",
+	"nameOnDisk" : "PvZ.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

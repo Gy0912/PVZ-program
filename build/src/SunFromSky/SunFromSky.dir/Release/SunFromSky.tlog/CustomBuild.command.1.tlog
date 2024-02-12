@@ -1,0 +1,10 @@
+^C:\USERS\25606\DESKTOP\HW8-2 PROGRAM\SRC\SUNFROMSKY\CMAKELISTS.TXT
+setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/25606/Desktop/HW8-2 program" "-BC:/Users/25606/Desktop/HW8-2 program/build" --check-stamp-file "C:/Users/25606/Desktop/HW8-2 program/build/src/SunFromSky/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

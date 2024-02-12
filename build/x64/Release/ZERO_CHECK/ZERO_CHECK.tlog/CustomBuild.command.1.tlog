@@ -1,0 +1,10 @@
+^C:\USERS\25606\DESKTOP\HW8-2 PROGRAM\BUILD\CMAKEFILES\B4F613F7B788126A2DDC6A61CC5B085A\GENERATE.STAMP.RULE
+setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/25606/Desktop/HW8-2 program" "-BC:/Users/25606/Desktop/HW8-2 program/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/25606/Desktop/HW8-2 program/build/PvZ.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

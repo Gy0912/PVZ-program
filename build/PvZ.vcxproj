@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A601A5C7-854D-3087-BBB5-3CDFEA397FE6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>PvZ</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\25606\Desktop\HW8-2 program\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PvZ.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\25606\Desktop\HW8-2 program\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PvZ.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\25606\Desktop\HW8-2 program\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PvZ.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\25606\Desktop\HW8-2 program\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PvZ.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PvZ</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Debug\Framework.lib;lib\Debug\GameWorld.lib;lib\Debug\GameObject.lib;lib\Debug\Background.lib;lib\Debug\SunFromSky.lib;lib\Debug\PlantingSpot.lib;lib\Debug\SunFlowerSeed.lib;lib\Debug\PeaShooterSeed.lib;lib\Debug\WallNutSeed.lib;lib\Debug\CherryBombSeed.lib;lib\Debug\RepeaterSeed.lib;lib\Debug\Spade.lib;lib\Debug\Zombie.lib;lib\Debug\SunFlower.lib;lib\Debug\PeaShooter.lib;lib\Debug\Repeater.lib;lib\Debug\CherryBomb.lib;lib\Debug\WallNut.lib;lib\Debug\CooldownMask.lib;lib\Debug\SunFromFlower.lib;lib\Debug\Pea.lib;lib\Debug\Explosion.lib;lib\Debug\GameWorld.lib;lib\Debug\GameObject.lib;lib\Debug\Background.lib;lib\Debug\SunFromSky.lib;lib\Debug\PlantingSpot.lib;lib\Debug\SunFlowerSeed.lib;lib\Debug\PeaShooterSeed.lib;lib\Debug\WallNutSeed.lib;lib\Debug\CherryBombSeed.lib;lib\Debug\RepeaterSeed.lib;lib\Debug\Spade.lib;lib\Debug\Zombie.lib;lib\Debug\SunFlower.lib;lib\Debug\PeaShooter.lib;lib\Debug\Repeater.lib;lib\Debug\CherryBomb.lib;lib\Debug\WallNut.lib;lib\Debug\CooldownMask.lib;lib\Debug\SunFromFlower.lib;lib\Debug\Pea.lib;lib\Debug\Explosion.lib;lib\Debug\Framework.lib;lib\Debug\freeglut.lib;opengl32.lib;winmm.lib;lib\Debug\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/25606/Desktop/HW8-2 program/build/lib/Debug/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/25606/Desktop/HW8-2 program/build/bin/Debug/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Release\Framework.lib;lib\Release\GameWorld.lib;lib\Release\GameObject.lib;lib\Release\Background.lib;lib\Release\SunFromSky.lib;lib\Release\PlantingSpot.lib;lib\Release\SunFlowerSeed.lib;lib\Release\PeaShooterSeed.lib;lib\Release\WallNutSeed.lib;lib\Release\CherryBombSeed.lib;lib\Release\RepeaterSeed.lib;lib\Release\Spade.lib;lib\Release\Zombie.lib;lib\Release\SunFlower.lib;lib\Release\PeaShooter.lib;lib\Release\Repeater.lib;lib\Release\CherryBomb.lib;lib\Release\WallNut.lib;lib\Release\CooldownMask.lib;lib\Release\SunFromFlower.lib;lib\Release\Pea.lib;lib\Release\Explosion.lib;lib\Release\GameWorld.lib;lib\Release\GameObject.lib;lib\Release\Background.lib;lib\Release\SunFromSky.lib;lib\Release\PlantingSpot.lib;lib\Release\SunFlowerSeed.lib;lib\Release\PeaShooterSeed.lib;lib\Release\WallNutSeed.lib;lib\Release\CherryBombSeed.lib;lib\Release\RepeaterSeed.lib;lib\Release\Spade.lib;lib\Release\Zombie.lib;lib\Release\SunFlower.lib;lib\Release\PeaShooter.lib;lib\Release\Repeater.lib;lib\Release\CherryBomb.lib;lib\Release\WallNut.lib;lib\Release\CooldownMask.lib;lib\Release\SunFromFlower.lib;lib\Release\Pea.lib;lib\Release\Explosion.lib;lib\Release\Framework.lib;lib\Release\freeglut.lib;opengl32.lib;winmm.lib;lib\Release\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/25606/Desktop/HW8-2 program/build/lib/Release/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/25606/Desktop/HW8-2 program/build/bin/Release/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\Framework.lib;lib\MinSizeRel\GameWorld.lib;lib\MinSizeRel\GameObject.lib;lib\MinSizeRel\Background.lib;lib\MinSizeRel\SunFromSky.lib;lib\MinSizeRel\PlantingSpot.lib;lib\MinSizeRel\SunFlowerSeed.lib;lib\MinSizeRel\PeaShooterSeed.lib;lib\MinSizeRel\WallNutSeed.lib;lib\MinSizeRel\CherryBombSeed.lib;lib\MinSizeRel\RepeaterSeed.lib;lib\MinSizeRel\Spade.lib;lib\MinSizeRel\Zombie.lib;lib\MinSizeRel\SunFlower.lib;lib\MinSizeRel\PeaShooter.lib;lib\MinSizeRel\Repeater.lib;lib\MinSizeRel\CherryBomb.lib;lib\MinSizeRel\WallNut.lib;lib\MinSizeRel\CooldownMask.lib;lib\MinSizeRel\SunFromFlower.lib;lib\MinSizeRel\Pea.lib;lib\MinSizeRel\Explosion.lib;lib\MinSizeRel\GameWorld.lib;lib\MinSizeRel\GameObject.lib;lib\MinSizeRel\Background.lib;lib\MinSizeRel\SunFromSky.lib;lib\MinSizeRel\PlantingSpot.lib;lib\MinSizeRel\SunFlowerSeed.lib;lib\MinSizeRel\PeaShooterSeed.lib;lib\MinSizeRel\WallNutSeed.lib;lib\MinSizeRel\CherryBombSeed.lib;lib\MinSizeRel\RepeaterSeed.lib;lib\MinSizeRel\Spade.lib;lib\MinSizeRel\Zombie.lib;lib\MinSizeRel\SunFlower.lib;lib\MinSizeRel\PeaShooter.lib;lib\MinSizeRel\Repeater.lib;lib\MinSizeRel\CherryBomb.lib;lib\MinSizeRel\WallNut.lib;lib\MinSizeRel\CooldownMask.lib;lib\MinSizeRel\SunFromFlower.lib;lib\MinSizeRel\Pea.lib;lib\MinSizeRel\Explosion.lib;lib\MinSizeRel\Framework.lib;lib\MinSizeRel\freeglut.lib;opengl32.lib;winmm.lib;lib\MinSizeRel\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/25606/Desktop/HW8-2 program/build/lib/MinSizeRel/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/25606/Desktop/HW8-2 program/build/bin/MinSizeRel/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\25606\Desktop\HW8-2 program\src;C:\Users\25606\Desktop\HW8-2 program\src\Framework;C:\Users\25606\Desktop\HW8-2 program\src\GameWorld;C:\Users\25606\Desktop\HW8-2 program\third_party\freeglut\include;C:\Users\25606\Desktop\HW8-2 program\third_party\SOIL\include;C:\Users\25606\Desktop\HW8-2 program\src\GameObject;C:\Users\25606\Desktop\HW8-2 program\src\Background;C:\Users\25606\Desktop\HW8-2 program\src\SunFromSky;C:\Users\25606\Desktop\HW8-2 program\src\PlantingSpot;C:\Users\25606\Desktop\HW8-2 program\src\SunFlowerSeed;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooterSeed;C:\Users\25606\Desktop\HW8-2 program\src\WallNutSeed;C:\Users\25606\Desktop\HW8-2 program\src\CherryBombSeed;C:\Users\25606\Desktop\HW8-2 program\src\RepeaterSeed;C:\Users\25606\Desktop\HW8-2 program\src\Spade;C:\Users\25606\Desktop\HW8-2 program\src\Zombie;C:\Users\25606\Desktop\HW8-2 program\src\SunFlower;C:\Users\25606\Desktop\HW8-2 program\src\PeaShooter;C:\Users\25606\Desktop\HW8-2 program\src\Repeater;C:\Users\25606\Desktop\HW8-2 program\src\CherryBomb;C:\Users\25606\Desktop\HW8-2 program\src\WallNut;C:\Users\25606\Desktop\HW8-2 program\src\SunFromFlower;C:\Users\25606\Desktop\HW8-2 program\src\Pea;C:\Users\25606\Desktop\HW8-2 program\src\Explosion;C:\Users\25606\Desktop\HW8-2 program\src\CooldownMask;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\Framework.lib;lib\RelWithDebInfo\GameWorld.lib;lib\RelWithDebInfo\GameObject.lib;lib\RelWithDebInfo\Background.lib;lib\RelWithDebInfo\SunFromSky.lib;lib\RelWithDebInfo\PlantingSpot.lib;lib\RelWithDebInfo\SunFlowerSeed.lib;lib\RelWithDebInfo\PeaShooterSeed.lib;lib\RelWithDebInfo\WallNutSeed.lib;lib\RelWithDebInfo\CherryBombSeed.lib;lib\RelWithDebInfo\RepeaterSeed.lib;lib\RelWithDebInfo\Spade.lib;lib\RelWithDebInfo\Zombie.lib;lib\RelWithDebInfo\SunFlower.lib;lib\RelWithDebInfo\PeaShooter.lib;lib\RelWithDebInfo\Repeater.lib;lib\RelWithDebInfo\CherryBomb.lib;lib\RelWithDebInfo\WallNut.lib;lib\RelWithDebInfo\CooldownMask.lib;lib\RelWithDebInfo\SunFromFlower.lib;lib\RelWithDebInfo\Pea.lib;lib\RelWithDebInfo\Explosion.lib;lib\RelWithDebInfo\GameWorld.lib;lib\RelWithDebInfo\GameObject.lib;lib\RelWithDebInfo\Background.lib;lib\RelWithDebInfo\SunFromSky.lib;lib\RelWithDebInfo\PlantingSpot.lib;lib\RelWithDebInfo\SunFlowerSeed.lib;lib\RelWithDebInfo\PeaShooterSeed.lib;lib\RelWithDebInfo\WallNutSeed.lib;lib\RelWithDebInfo\CherryBombSeed.lib;lib\RelWithDebInfo\RepeaterSeed.lib;lib\RelWithDebInfo\Spade.lib;lib\RelWithDebInfo\Zombie.lib;lib\RelWithDebInfo\SunFlower.lib;lib\RelWithDebInfo\PeaShooter.lib;lib\RelWithDebInfo\Repeater.lib;lib\RelWithDebInfo\CherryBomb.lib;lib\RelWithDebInfo\WallNut.lib;lib\RelWithDebInfo\CooldownMask.lib;lib\RelWithDebInfo\SunFromFlower.lib;lib\RelWithDebInfo\Pea.lib;lib\RelWithDebInfo\Explosion.lib;lib\RelWithDebInfo\Framework.lib;lib\RelWithDebInfo\freeglut.lib;opengl32.lib;winmm.lib;lib\RelWithDebInfo\SOIL.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/25606/Desktop/HW8-2 program/build/lib/RelWithDebInfo/PvZ.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/25606/Desktop/HW8-2 program/build/bin/RelWithDebInfo/PvZ.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\25606\Desktop\HW8-2 program\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/25606/Desktop/HW8-2 program/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/25606/Desktop/HW8-2 program" "-BC:/Users/25606/Desktop/HW8-2 program/build" --check-stamp-file "C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/25606/Desktop/HW8-2 program/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/25606/Desktop/HW8-2 program" "-BC:/Users/25606/Desktop/HW8-2 program/build" --check-stamp-file "C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/25606/Desktop/HW8-2 program/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/25606/Desktop/HW8-2 program" "-BC:/Users/25606/Desktop/HW8-2 program/build" --check-stamp-file "C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/25606/Desktop/HW8-2 program/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\mingw64\bin\cmake.exe "-SC:/Users/25606/Desktop/HW8-2 program" "-BC:/Users/25606/Desktop/HW8-2 program/build" --check-stamp-file "C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeCCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeCXXCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeRCCompiler.cmake;C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\3.25.1\CMakeSystem.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCXXInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeCommonLanguageInclude.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeGenericSystem.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeInitializeConfigs.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeLanguageInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeRCInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeSystemSpecificInformation.cmake;C:\mingw64\share\cmake-3.25\Modules\CMakeSystemSpecificInitialize.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC-C.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC-CXX.cmake;C:\mingw64\share\cmake-3.25\Modules\Compiler\MSVC.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC-C.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC-CXX.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows-MSVC.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\Windows.cmake;C:\mingw64\share\cmake-3.25\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\25606\Desktop\HW8-2 program\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\25606\Desktop\HW8-2 program\build\ZERO_CHECK.vcxproj">
+      <Project>{A0433874-66E6-3AE2-A637-3EF296AA4443}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\25606\Desktop\HW8-2 program\build\src\Framework\Framework.vcxproj">
+      <Project>{10C49B27-BB3F-3AE0-9635-94DE342F3F34}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\25606\Desktop\HW8-2 program\build\src\GameObject\GameObject.vcxproj">
+      <Project>{09A9AB19-F022-3C2B-9C1D-027B36710775}</Project>
+      <Name>GameObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\25606\Desktop\HW8-2 program\build\SOIL\SOIL.vcxproj">
+      <Project>{89F12C11-1247-38E8-A172-E7F9AA792932}</Project>
+      <Name>SOIL</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\25606\Desktop\HW8-2 program\build\freeglut\freeglut.vcxproj">
+      <Project>{14950BB9-3A1B-33F1-9782-1A477651C477}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+prefix=C:/Users/25606/Desktop/HW8-2 program/out/install/x64-Debug
+libdir=C:/Users/25606/Desktop/HW8-2 program/out/install/x64-Debug/lib
+includedir=${prefix}/include
+
+Name: glut
+Description: A freely licensed and improved alternative to the GLUT library
+Version: 3.2.2
+Libs: -L${libdir} -lfreeglut
+Libs.private: -lopengl32 -lwinmm -lgdi32 -lm
+Cflags: -I${includedir} -DFREEGLUT_STATIC

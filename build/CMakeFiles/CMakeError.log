@@ -1,0 +1,123 @@
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/CMakeScratch/TryCompile-88bfk6
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_03a01.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03a01.dir\Debug\\" /Fd"cmTC_03a01.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-88bfk6\HAVE_UNISTD_H.c"
+  HAVE_UNISTD_H.c
+C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-88bfk6\HAVE_UNISTD_H.c(2,10): fatal  error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-88bfk6\cmTC_03a01.vcxproj]
+
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/CMakeScratch/TryCompile-ozcasl
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0be85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0be85.dir\Debug\\" /Fd"cmTC_0be85.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-ozcasl\HAVE_SYS_TIME_H.c"
+  HAVE_SYS_TIME_H.c
+C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-ozcasl\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-ozcasl\cmTC_0be85.vcxproj]
+
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/CMakeScratch/TryCompile-1jg8ag
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_46c24.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46c24.dir\Debug\\" /Fd"cmTC_46c24.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-1jg8ag\HAVE_SYS_PARAM_H.c"
+  HAVE_SYS_PARAM_H.c
+C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-1jg8ag\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-1jg8ag\cmTC_46c24.vcxproj]
+
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/CMakeScratch/TryCompile-ojdkmu
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_84937.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84937.dir\Debug\\" /Fd"cmTC_84937.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-ojdkmu\HAVE_SYS_IOCTL_H.c"
+  HAVE_SYS_IOCTL_H.c
+C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-ojdkmu\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-ojdkmu\cmTC_84937.vcxproj]
+
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/CMakeScratch/TryCompile-vi4vf1
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_17800.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17800.dir\Debug\\" /Fd"cmTC_17800.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-vi4vf1\HAVE_USBHID_H.c"
+  HAVE_USBHID_H.c
+C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-vi4vf1\HAVE_USBHID_H.c(2,10): fatal  error C1083: 无法打开包括文件: “usbhid.h”: No such file or directory [C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-vi4vf1\cmTC_17800.vcxproj]
+
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(void){return 0;}
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/CMakeScratch/TryCompile-vayz59
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ec667.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ec667.dir\Debug\\" /Fd"cmTC_ec667.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-vayz59\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 gettimeofday，函数 main 中引用了该符号 [C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-vayz59\cmTC_ec667.vcxproj]
+C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-vayz59\Debug\cmTC_ec667.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-vayz59\cmTC_ec667.vcxproj]
+
+
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: C:/Users/25606/Desktop/HW8-2 program/build/CMakeFiles/CMakeScratch/TryCompile-8yp5nw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e3c38.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.36.32534 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3c38.dir\Debug\\" /Fd"cmTC_e3c38.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-8yp5nw\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 XParseGeometry，函数 main 中引用了该符号 [C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-8yp5nw\cmTC_e3c38.vcxproj]
+C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-8yp5nw\Debug\cmTC_e3c38.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\25606\Desktop\HW8-2 program\build\CMakeFiles\CMakeScratch\TryCompile-8yp5nw\cmTC_e3c38.vcxproj]
+
+
+

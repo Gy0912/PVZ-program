@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+C:/Users/25606/Desktop/HW8-2 program/third_party/freeglut/CMakeLists.txt
+C:/Users/25606/Desktop/HW8-2 program/third_party/freeglut/FreeGLUTConfig.cmake.in
+C:/Users/25606/Desktop/HW8-2 program/third_party/freeglut/config.h.in
+C:/Users/25606/Desktop/HW8-2 program/third_party/freeglut/freeglut.pc.in
+C:/Users/25606/Desktop/HW8-2 program/third_party/freeglut/freeglut.rc.in
+C:/Users/25606/Desktop/HW8-2 program/third_party/freeglut/src/fg_version.h.in
+C:/mingw64/share/cmake-3.25/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in
+C:/mingw64/share/cmake-3.25/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/mingw64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake
+C:/mingw64/share/cmake-3.25/Modules/CheckCCompilerFlag.cmake
+C:/mingw64/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+C:/mingw64/share/cmake-3.25/Modules/CheckFunctionExists.cmake
+C:/mingw64/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/mingw64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake
+C:/mingw64/share/cmake-3.25/Modules/CheckIncludeFiles.cmake
+C:/mingw64/share/cmake-3.25/Modules/CheckTypeSize.cmake
+C:/mingw64/share/cmake-3.25/Modules/FindOpenGL.cmake
+C:/mingw64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/mingw64/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/mingw64/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+C:/mingw64/share/cmake-3.25/Modules/Internal/CheckCompilerFlag.cmake
+C:/mingw64/share/cmake-3.25/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/mingw64/share/cmake-3.25/Modules/Internal/CheckSourceCompiles.cmake
+C:/mingw64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake
